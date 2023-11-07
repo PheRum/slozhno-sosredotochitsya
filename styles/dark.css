@@ -4,9 +4,31 @@
   переключая тему
 */
 
+/*prefers-color-scheme*/
+/*body:has(.theme-toggler__control:checked)*/
+
+body:has(.theme-toggler__control:checked) {
+    --main-text-color: #fff;
+    --main-background-color: #152028;
+}
+
 .page.theme_dark {
     /* сохраните этот селектор в приведённом виде.
       Так стили написанные ниже будут иметь больший вес,
       чем стили в медиазапросе предпочтений пользователя
     */
+    background-color: #000;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --main-text-color: #fff;
+        --main-background-color: #152028;
+    }
+}
+
+body:has(.theme-toggler__control_type_light:checked) {
+    --main-text-color: #152028;
+    --main-background-color: #fff;
 }

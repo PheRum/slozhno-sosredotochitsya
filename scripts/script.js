@@ -36,12 +36,8 @@ function initTheme() {
             btn.classList.remove('header__theme-menu-button_active');
             btn.removeAttribute('disabled');
         });
-        document
-        .querySelector(`.header__theme-menu-button_type_${theme}`)
-        .classList.add('header__theme-menu-button_active');
-        document
-        .querySelector(`.header__theme-menu-button_type_${theme}`)
-        .setAttribute('disabled', true);
+        document.querySelector(`.header__theme-menu-button_type_${theme}`).classList.add('header__theme-menu-button_active');
+        document.querySelector(`.header__theme-menu-button_type_${theme}`).setAttribute('disabled', true);
     }
 }
 
