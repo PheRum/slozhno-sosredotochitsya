@@ -56,8 +56,8 @@
     position: absolute;
     z-index: -1;
     content: "";
-    inline-size: 25px;
     block-size: 25px;
+    inline-size: 25px;
 }
 
 .lens::before {
