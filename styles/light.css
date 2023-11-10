@@ -1,12 +1,29 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    --text-color: var(--color-black-200, #353430);
+    --accent-color: var(--color-pink-400, #ff8dcb);
+    --brand-color: var(--color-pink-300, #ffc2e6);
+    --highlight-color: var(--color-black-200, #353430);
+    --secondary-color: var(--color-black-200, #353430);
+    --secondary-color-800: var(--color-black-300, #35343040);
+
+    --main-bg-color: var(--color-pink-100, #fff1f7);
+    --main-bg-image: url("../images/cover-image-light.png");
+
+    --rec-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: var(--color-black-200, #353430);
+        --accent-color: var(--color-pink-400, #ff8dcb);
+        --brand-color: var(--color-pink-300, #ffc2e6);
+        --highlight-color: var(--color-black-200, #353430);
+        --secondary-color: var(--color-black-200, #353430);
+        --secondary-color-800: var(--color-black-300, #35343040);
+
+        --main-bg-color: var(--color-pink-100, #fff1f7);
+        --main-bg-image: url("../images/cover-image-light.png");
+
+        --rec-visibility: hidden;
+    }
 }
