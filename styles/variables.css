@@ -6,21 +6,21 @@
 
     --color-purple-100: #db00ff;
     --color-purple-200: #ff0070;
-    --color-purple-400: #ff007040;
+    --color-purple-800: rgba(255, 0, 112, 0.40);
 
-    --color-black-1: #000028;
-    --color-black-2: #353430;
-    --color-black-2-o-40: #35343040;
+    --color-black-200: #353430;
+    --color-black-300: rgba(50, 49, 45, 0.40);
+    --color-black-900: #000028;
 
     --text-color: var(--color-pink-200, #f1b2ce);
     --brand-color: var(--color-purple-100, #db00ff);
     --secondary-color: var(--color-purple-200, #ff0070);
-    --secondary-color-400: var(--color-purple-400, #ff007040);
+    --secondary-color-800: var(--color-purple-800, #ff007040);
     --accent-color: var(--color-purple-200, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
+    --highlight-color: var(--color-black-900, #000028);
 
     --main-bg-image: url("../images/cover-image.png");
-    --main-bg-color: var(--color-black-1, #000028);
+    --main-bg-color: var(--color-black-900, #000028);
 
     --rec-visibility: visible;
 }

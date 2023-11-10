@@ -42,7 +42,7 @@
     content: "";
     border-radius: 50%;
     background: var(--accent-color, #ff0070);
-    box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+    box-shadow: 0 0 2px 2px var(--accent-color);
     inline-size: 9px;
     block-size: 9px;
 }
@@ -178,7 +178,7 @@
 }
 
 .header__theme-menu-button:hover {
-    border-color: var(--secondary-color-400, #ff007040);
+    border-color: var(--secondary-color-800, #ff007040);
 }
 
 .header__theme-menu-button:focus {

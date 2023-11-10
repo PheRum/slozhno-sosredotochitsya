@@ -1,14 +1,13 @@
 @font-face {
-    src: url(./IBMPlexMono-Regular.woff) format("woff");
-    font-weight: normal;
-    font-display: swap;
     font-family: "IBM Plex mono";
+    src: url(./IBMPlexMono-Regular.woff) format("woff");
+    font-display: swap;
+    font-weight: normal;
 }
 
 @font-face {
-
-    font-display: swap;
-    src: url(./IBMPlexMono-Bold.woff) format("woff");
     font-family: "IBM Plex mono";
+    src: url(./IBMPlexMono-Bold.woff) format("woff");
+    font-display: swap;
     font-weight: bold;
 }

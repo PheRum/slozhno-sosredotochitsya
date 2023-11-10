@@ -2,11 +2,11 @@
     --text-color: var(--color-pink-200, #f1b2ce);
     --brand-color: var(--color-purple-100, #db00ff);
     --secondary-color: var(--color-purple-200, #ff0070);
-    --secondary-color-400: var(--color-purple-400, #ff007040);
+    --secondary-color-800: var(--color-purple-800, #ff007040);
     --accent-color: var(--color-purple-200, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
+    --highlight-color: var(--color-black-900, #000028);
 
-    --main-bg-color: var(--color-black-1, #000028);
+    --main-bg-color: var(--color-black-900, #000028);
     --main-bg-image: url("../images/cover-image-dark.png");
 
     --rec-visibility: visible;
@@ -17,11 +17,11 @@
         --text-color: var(--color-pink-200, #f1b2ce);
         --brand-color: var(--color-purple-100, #db00ff);
         --secondary-color: var(--color-purple-200, #ff0070);
-        --secondary-color-400: var(--color-purple-400, #ff007040);
+        --secondary-color-800: var(--color-purple-800, #ff007040);
         --accent-color: var(--color-purple-200, #ff0070);
-        --highlight-color: var(--color-black-1, #000028);
+        --highlight-color: var(--color-black-900, #000028);
 
-        --main-bg-color: var(--color-black-1, #000028);
+        --main-bg-color: var(--color-black-900, #000028);
         --main-bg-image: url("../images/cover-image-dark.png");
 
         --rec-visibility: visible;
