@@ -2,27 +2,27 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
 
-    <link href="./images/favicon.ico" rel="icon" sizes="any" />
-    <link href="./images/favicon.svg" rel="icon" type="image/svg+xml" />
-    <link href="./images/mobile-icon.png" rel="apple-touch-icon" />
+    <link href="./images/favicon.ico" rel="icon" sizes="any">
+    <link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+    <link href="./images/mobile-icon.png" rel="apple-touch-icon">
 
     <title>Сложно сосредоточиться</title>
 
-    <link href="./fonts/fonts.css" rel="stylesheet" />
-    <link href="./styles/variables.css" rel="stylesheet" />
-    <link href="./styles/globals.css" rel="stylesheet" />
-    <link href="./styles/style.css" rel="stylesheet" />
-    <link href="./styles/dark.css" rel="stylesheet" />
-    <link href="./styles/light.css" rel="stylesheet" />
+    <link href="./fonts/fonts.css" rel="stylesheet">
+    <link href="./styles/variables.css" rel="stylesheet">
+    <link href="./styles/globals.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/dark.css" rel="stylesheet">
+    <link href="./styles/light.css" rel="stylesheet">
 </head>
 
 <body class="page">
 <header class="header lens cover">
-    <div aria-hidden="true" class="rec"></div>
+    <span aria-hidden="true" class="rec"></span>
 
     <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
@@ -47,12 +47,12 @@
         </ul>
     </nav>
 
-    <h1 class="page-title shadow">no focus</h1>
+    <h1 class="page-title header__title-shadow">no focus</h1>
 
-    <p class="header__title">
-        Что делать, когда не можешь делать ничего<br />
-        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-    </p>
+    <section class="header__title">
+        <p>Что делать, когда не можешь делать ничего</p>
+        <p>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+    </section>
 </header>
 
 <main class="main">
@@ -70,7 +70,7 @@
                         её просто не существует. Исследователи
                         <a class="link shadow"
                            href="https://dana.org/article/multicosts-of-multitasking/"
-                           target="_blank">выяснили</a>,
+                           rel="noopener noreferrer" target="_blank">выяснили</a>,
                         что мозгу тяжело концентрироваться даже на двух делах
                         одновременно. А когда в поле внимания попадает несколько важных
                         задач, организм паникует и выделяет кортизол и адреналин —
@@ -152,7 +152,7 @@
     <section class="section section-how">
         <h2 class="title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
 
-        <div>
+        <article>
             <h3 class="title title-decor section-how__title">
                 5 простых (на самом деле не очень) советов
             </h3>
@@ -196,7 +196,7 @@
                             эксперимент
                             <a class="link shadow"
                                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
-                               target="_blank">показал</a>,
+                               rel="noopener noreferrer" target="_blank">показал</a>,
                             что созерцание природы повышает концентрацию, в то время
                             как после просмотра городских пейзажей она наоборот
                             понижается. Можно совместить прогулку с физическими
@@ -232,72 +232,62 @@
                     </article>
                 </li>
             </ul>
-        </div>
+        </article>
     </section>
 
     <section class="section section-gallery">
         <h2 class="title title-decor">А можно в картинках?</h2>
         <ul class="gallery-list">
             <li class="gallery-list__item">
-                <picture>
-                    <img
-                        alt="Изображение совета: Представьте небо и облака"
-                        class="gallery-list__item-img"
-                        loading="lazy"
-                        src="./images/sunset.png"
-                    />
-                </picture>
+                <img
+                    alt="Изображение совета: Представьте небо и облака"
+                    class="gallery-list__item-img"
+                    loading="lazy"
+                    src="./images/sunset.png"
+                />
             </li>
 
             <li class="gallery-list__item">
-                <picture>
-                    <img
-                        alt="Изображение совета: Хорошо ешьте"
-                        class="gallery-list__item-img"
-                        loading="lazy"
-                        src="./images/ice-cream.png"
-                    />
-                </picture>
+                <img
+                    alt="Изображение совета: Хорошо ешьте"
+                    class="gallery-list__item-img"
+                    loading="lazy"
+                    src="./images/ice-cream.png"
+                />
             </li>
 
             <li class="gallery-list__item">
-                <picture>
-                    <img
-                        alt="Изображение совета: Включите музыку"
-                        class="gallery-list__item-img"
-                        loading="lazy"
-                        src="./images/tape.png"
-                    />
-                </picture>
+                <img
+                    alt="Изображение совета: Включите музыку"
+                    class="gallery-list__item-img"
+                    loading="lazy"
+                    src="./images/tape.png"
+                />
             </li>
 
             <li class="gallery-list__item">
-                <picture>
-                    <img
-                        alt="Изображение совета: Читайте"
-                        class="gallery-list__item-img"
-                        loading="lazy"
-                        src="./images/books.png"
-                    />
-                </picture>
+                <img
+                    alt="Изображение совета: Читайте"
+                    class="gallery-list__item-img"
+                    loading="lazy"
+                    src="./images/books.png"
+                />
             </li>
 
             <li class="gallery-list__item">
-                <picture>
-                    <img
-                        alt="Изображение совета: Прогуляйтесь"
-                        class="gallery-list__item-img"
-                        loading="lazy"
-                        src="./images/street.png"
-                    />
-                </picture>
+                <img
+                    alt="Изображение совета: Прогуляйтесь"
+                    class="gallery-list__item-img"
+                    loading="lazy"
+                    src="./images/street.png"
+                />
             </li>
         </ul>
     </section>
 </main>
 
 <footer class="cover footer lens">
-    <h2 class="page-title shadow">focus</h2>
+    <h2 class="page-title footer__title-shadow">focus</h2>
 </footer>
 
 <script src="./scripts/script.js"></script>
