@@ -1,12 +1,12 @@
 .page.theme_light {
-    --text-color: var(--color-black-200, #353430);
-    --accent-color: var(--color-pink-400, #ff8dcb);
-    --brand-color: var(--color-pink-300, #ffc2e6);
-    --highlight-color: var(--color-black-200, #353430);
-    --secondary-color: var(--color-black-200, #353430);
-    --secondary-color-800: var(--color-black-300, #35343040);
+    --text-color: var(--color-black-dark, #353430);
+    --accent-color: var(--color-pink-bright, #ff8dcb);
+    --brand-color: var(--color-pink-medium, #ffc2e6);
+    --highlight-color: var(--color-black-dark, #353430);
+    --secondary-color: var(--color-black-dark, #353430);
+    --secondary-color-hover: var(--color-black-transparent, #35343040);
 
-    --main-bg-color: var(--color-pink-100, #fff1f7);
+    --main-bg-color: var(--color-pink-lightest, #fff1f7);
     --main-bg-image: url("../images/cover-image-light.png");
 
     --rec-visibility: hidden;
@@ -14,14 +14,14 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --text-color: var(--color-black-200, #353430);
-        --accent-color: var(--color-pink-400, #ff8dcb);
-        --brand-color: var(--color-pink-300, #ffc2e6);
-        --highlight-color: var(--color-black-200, #353430);
-        --secondary-color: var(--color-black-200, #353430);
-        --secondary-color-800: var(--color-black-300, #35343040);
+        --text-color: var(--color-black-dark, #353430);
+        --accent-color: var(--color-pink-bright, #ff8dcb);
+        --brand-color: var(--color-pink-medium, #ffc2e6);
+        --highlight-color: var(--color-black-dark, #353430);
+        --secondary-color: var(--color-black-dark, #353430);
+        --secondary-color-hover: var(--color-black-transparent, #35343040);
 
-        --main-bg-color: var(--color-pink-100, #fff1f7);
+        --main-bg-color: var(--color-pink-lightest, #fff1f7);
         --main-bg-image: url("../images/cover-image-light.png");
 
         --rec-visibility: hidden;

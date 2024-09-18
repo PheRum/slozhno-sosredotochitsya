@@ -11,7 +11,7 @@
 }
 
 .shadow {
-    text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+    text-shadow: 3px 3px 0 var(--accent-color, #ff0070);
 }
 
 .cover {
@@ -45,6 +45,7 @@
     box-shadow: 0 0 4px var(--accent-color);
     inline-size: 9px;
     block-size: 9px;
+    filter: drop-shadow(0 0 4px #FF0070);
 }
 
 .lens {
@@ -79,7 +80,7 @@
 }
 
 .link:hover {
-    border-block-end: 1px solid var(--secondary-color, #ff0070);
+    border-block-end: 2px solid var(--secondary-color, #ff0070);
 }
 
 .link:focus {
@@ -102,6 +103,11 @@
     font-weight: 700;
     line-height: inherit;
     color: var(--secondary-color, #ff0070);
+}
+
+h4.title {
+    font-style: normal;
+    font-weight: 400;
 }
 
 .title-decor {
@@ -178,7 +184,7 @@
 }
 
 .header__theme-menu-button:hover {
-    border-color: var(--secondary-color-800, #ff007040);
+    border-color: var(--secondary-color-hover, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -213,7 +219,7 @@
 }
 
 .footer__title-shadow {
-    text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+    text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
 @media (width >= 768px) {
@@ -280,7 +286,7 @@
 
 @media (width >= 1024px) {
     .header__title-shadow {
-        text-shadow: 4px 4px 0 var(--color-purple-200, #ff0070);
+        text-shadow: 4px 4px 0 var(--color-purple-pinkish, #ff0070);
     }
 
     .section {
@@ -303,6 +309,6 @@
     }
 
     .footer__title-shadow {
-        text-shadow: 2px 2px 0 var(--color-purple-200, #ff0070);
+        text-shadow: 2px 2px 0 var(--color-purple-pinkish, #ff0070);
     }
 }
