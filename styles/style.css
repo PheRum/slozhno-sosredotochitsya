@@ -80,7 +80,7 @@
 }
 
 .link:hover {
-    border-block-end: 2px solid var(--secondary-color, #ff0070);
+    border-block-end: 2px solid var(--text-color, #f1b2ce);
 }
 
 .link:focus {
